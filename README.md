@@ -27,10 +27,6 @@ O projeto simula uma casa de apostas para a prática do "Jogo do Bicho" permitin
 
 [![My Skills](https://skillicons.dev/icons?i=java,spring,maven,python,django,go,react,tailwind,postgres,redis,docker)](https://skillicons.dev)
 
-## Iniciando
-
-Nesta seção você encontrará os passos para instalar e executar o projeto na sua máquina.
-
 ## Pré-requisitos
 
 * <a href="https://www.oracle.com/java/technologies/javase/jdk17-readme-downloads.html">JDK 17</a>
@@ -42,7 +38,7 @@ Nesta seção você encontrará os passos para instalar e executar o projeto na 
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/higorgoulart/bicho.bet.git
+   git clone https://github.com/guilherme-savio/bicho.bet.git
    ```
 2. Abra o serviço/pasta "springboot-api" com a IDE de sua preferência (recomendamos utilizar o IntelliJ) e realize o build com o Maven pela IDE ou terminal. <strong> O serviço disponibiliza um <a href="https://github.com/higorgoulart/bicho.bet/blob/main/springboot-api/src/main/resources/data.sql">script DML<a/> com apostadores, apostas, jogos e resultados pré-cadastrados para você que deseja uma visualização mais simples da aplicação. Recomendamos que ele seja excluído antes de realizar o build caso queira usufruir da experiência completa de abrir jogos, cadastrar apostadores, realizar apostas, pedir empréstimos e muito mais!. </strong>
     ![image](https://github.com/higorgoulart/bicho.bet/assets/110054084/b18a5c00-94e8-4df7-95ea-d91b9840f35e)
